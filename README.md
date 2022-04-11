@@ -20,7 +20,8 @@
 
   ## Usage
 
-  <iframe src="https://drive.google.com/file/d/1DQggJUwSQdDWJIVuXPUhEMovjpRfn1hj/preview" width="640" height="480"></iframe>
+  ![Untitled_ Apr 11, 2022 12_36 PM](https://user-images.githubusercontent.com/97478725/162790825-2fb7940d-6ce9-4ffb-be1c-5224e2dbade4.gif)
+
 
   ## Contributions
 
