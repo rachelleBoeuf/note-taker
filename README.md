@@ -20,7 +20,7 @@
 
   ## Usage
 
-  ![Alt text](name-of-gif-file.gif) / ![](name-of-gif-file.gif)
+   [gif of functioning application]
 
   ## Contributions
 
