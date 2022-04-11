@@ -21,6 +21,8 @@
   ## Usage
 
    [gif of functioning application]
+   ![Untitled_ Apr 11, 2022 12_36 PM](https://user-images.githubusercontent.com/97478725/162792012-b1e91dca-6a0f-4517-9914-60c71fdfc954.gif)
+
 
   ## Contributions
 
