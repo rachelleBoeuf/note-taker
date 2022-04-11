@@ -57,7 +57,32 @@ app.post('/api/notes', (req, res) => {
     }
 });
 
-
+app.delete('/api/notes/:id', (req, res) => {
+    let id = req.params.id;
+    fs.readFile('db/db.json', "utf8", function (err, data) {
+        if (err) return res.status(404).json(err);
+        let savedNotes = JSON.parse(data) || [];
+        savedNotes = savedNotes.filter(note=>note.id!==id);
+        console.log(savedNotes);
+        fs.writeFile(`db/db.json`, JSON.stringify(savedNotes, null, 2), (err) =>{
+            const response = {
+                status: 'success'
+            };
+            if(err) {
+                console.error(err)
+                res.status(500).json(err);
+            }
+            else {
+                console.log(
+                    'new note saved to JSON'
+                )
+                console.log(response);
+                res.status(201).json(response);
+            }
+        });
+    })
+}
+)
 
 
 
